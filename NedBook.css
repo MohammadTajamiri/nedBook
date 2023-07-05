@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 238,222);
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav{
+    border-bottom: 2px solid rgb(42, 40, 40);
+    margin: 1% auto;
+    display: flex;
+    height: 10%;
+    align-content: center;
+    justify-content: space-around;
+    width: 90%;
+    font-family: 'Architects Daughter', cursive;
+}
+
+li{
+    font-size: 20px;
+}
+.list:hover{
+    color: black;
+}
+
+#nav{
+    width: 50%;
+}
+ul{
+    align-items: center;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+.info{
+    margin-top: 7px;
+    
+}
+li{
+    justify-self: center;
+    height:50% ;
+    padding: 10px;
+    list-style: none;
+}
+#insideSearch{
+    height: 10%;
+    width: 90%;
+}
+h1{
+    margin: 5% 0;
+}
+.upper{
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+    width: 5%;
+}
+#btnfirst{
+background-color: #AB572A;
+width: 28%;
+height: 18%;
+color: wheat;
+box-shadow: 3px 3px;
+border-radius: 5px;
+}
+main{
+    width: 90%;
+    margin: 2% auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+img{
+   width: 100%;
+   border-radius: 15px;
+}
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    color: green;
+    min-width: 50px;
+    text-align: center;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+}
+.slide{
+    width: 30%;
+}
+.description{
+    padding-top: 1000px;
+    font-size: large;
+}
+.bestseller
+{ 
+    height:500px;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 5% auto;
+}
+.slideB{
+    width: 16%;
+    height: 80%;
+}
+.bookClub{
+    width: 100%;
+    height: 78%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3F4763;
+}
+.leftBookClub{
+    width: 50%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-around;
+}
+.rightBookClub{
+    width: 50%;
+    margin: 12% auto 0 auto;
+}
+.middle{
+    margin-top: 13%;
+    margin-bottom: 3%;
+    width: 100%;
+    height: 100%;
+}
+.aside{
+    margin-top: -50px;
+    overflow: visible;
+    width: 100%;
+}
+.aboutUs{
+    width: 90%;
+    margin: 2% auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.footerGrid{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.slideBc{
+    margin-bottom: 15px;
+}
+.aboutBookClub{
+    margin: 10px 0;
+}
+.aboutUsLeft{
+    margin: auto 1px;
+}
