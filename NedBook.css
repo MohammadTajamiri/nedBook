@@ -171,3 +171,91 @@ img{
 .aboutUsLeft{
     margin: auto 1px;
 }
+#hiddenLogo{
+    display: none;
+}
+#hidden_main{
+    display: none;
+}
+@media screen and (max-width:800px){
+
+    nav #nav{
+        display: none;
+    }
+    nav #nav #logo{
+        display: block;
+    }
+    #frontLogo{
+        display: none;
+    }
+    #hiddenLogo{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    #leftHiddenLogo{
+        display: flex;
+        width: max-content;
+    }
+    #rightHiddenLogo{
+        display: flex;
+        width: max-content;
+    }
+    #leftHiddenLogo #logo p{
+        position: absolute ;
+        margin-left: 2%;
+        top:2.5%;
+    }
+    #chesse{
+        border: 0;
+        background: none;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+    #cheeseHide{
+        display: none;
+        border: 0;
+        background: none;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+    #hidden_main{
+        display: none;
+        height: 70%;
+        text-align: center;
+        margin: 0 auto;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    #searchBar{
+        width: 70%;
+        height: 40px;
+        border-radius: 5px;
+        margin: 5.5px 0;
+        box-shadow: 20px;
+    }
+    #ulInHidden{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        margin: 20px auto;
+    }
+    #ulInHidden li{
+        margin: 0px 0px;
+        text-align: left;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        margin: 5% 0;
+    }
+    .right{
+        margin: 5% 0;
+    }
+    .bestseller{
+        display: flex;
+        flex-direction: column;
+    }
+}

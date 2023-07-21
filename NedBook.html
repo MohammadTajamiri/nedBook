@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="NedBook.css">
@@ -9,25 +10,56 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-        <script src="NedBook.js" defer></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        
+        
     </head>
     <body>
         <header>
             <nav>
                 <ul id="nav">
-                    <li class="list"><img style="width: 40px; height: 40px; margin-top: -9px; position: absolute; left: 120px;" src="NedBook.jpg" alt="Nedbook Logo"><p style="display:inline-block;top: 38px; left: 166px; position: absolute; font-weight: bolder;">nedBook</p></li>
+                    <li class="list" id="logo"><img style="width: 40px; height: 40px; margin-top: -9px; position: absolute; left: 120px;" src="NedBook.jpg" alt="Nedbook Logo"><p style="display:inline-block;top: 38px; left: 166px; position: absolute; font-weight: bolder;">nedBook</p></li>
                     <li class="list">Home</li>
                     <li class="list">Discover</li>
                     <li class="list">Shop</li>
                     <li class="list">Genres</li>
                 </ul>
-                <ul>
-                   <li><span class="material-symbols-outlined">search</span></li> 
+                <ul id="frontLogo">
+                   <li><span class="material-symbols-outlined rightLogo">search</span></li> 
                    <li>Sign Up</li>
+                </ul>
+                <ul id="hiddenLogo">
+                    <div id="leftHiddenLogo">
+                        <li class="list" id="logo"><img style="width: 40px; height: 40px;" src="NedBook.jpg" alt="Nedbook Logo"><p style="display:inline-block;font-weight: bolder;">nedBook</p></li>
+                    </div>
+                    <div id="rightHiddenLogo">
+                        <li>Sign Up</li>
+                        <button id="chesse">
+                            <span class="material-symbols-outlined" >
+                            menu
+                            </span>
+                        </button>
+                        <button id="cheeseHide">
+                            <span class="material-symbols-outlined">
+                                close
+                            </span>
+                        </button>
+                    </div>
                 </ul>
             </nav>
         </header>
+            <div id="hidden_main">
+                <input type="text" name="searchBar" id="searchBar" placeholder="Search Our Library">
+                <ul id="ulInHidden">
+                    <li>Home</li>
+                    <li>Discover</li>
+                    <li>Shop</li>
+                    <li>Genres</li>
+                </ul>
+            </div>
+            <div id="hideMe">
             <main>
                 <div class="left">
                    <h1>My Name is ned ...<br>
@@ -47,7 +79,7 @@
                 </div>
                 <div class="right"> 
                     <div class="slide">
-                        <img src="https://images.ctfassets.net/usf1vwtuqyxm/6S51pK7uwnyhkS9Io9DsAn/320c162c5150f853b8d8568c4715dcef/English_Harry_Potter_7_Epub_9781781100264.jpg?w=914&q=70&fm=jpg" alt="Harry Potter">
+                        <img id="movement" src="https://images.ctfassets.net/usf1vwtuqyxm/6S51pK7uwnyhkS9Io9DsAn/320c162c5150f853b8d8568c4715dcef/English_Harry_Potter_7_Epub_9781781100264.jpg?w=914&q=70&fm=jpg" alt="Harry Potter">
                         <div class="info">
                             <span class="description" style="font-weight: bolder; color: rgb(59, 27, 27);">Harry Potter</span><br>
                             <span class="description" style="font-size: 14px;">J.K. Rowlling</span>
@@ -109,7 +141,7 @@
                     <span class="description">They Both die at The End.</span><br>
                     <span class="description" style="font-size: 14px;">Adam Silvera</span>
                     <br>
-                    <span class="material-symbols-outlined">star</span>
+                    <span class="material-symbols-outlined" style="background-color: gold;">star</span>
                     <span class="material-symbols-outlined">star</span>
                     <span class="material-symbols-outlined">star</span>
                     <br>
@@ -247,5 +279,9 @@
                     </div>
                 </div>
             </footer>
+        </div>
+            
     </body>
+    <script src="NedBook.js" defer>
+    </script>
 </html>
